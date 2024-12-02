@@ -78,11 +78,13 @@ header a {
     font-weight: bold;
 }
 
-
+.navbar a:hover {
+    color:#a30000;
+}
 
 
 #vendorButton a {
-    background-color: #ffb400;
+    background-color: #a30000;
     color: #FFF0DC;
     padding: 8px 15px;
     border-radius: 5px;
@@ -100,6 +102,21 @@ h2 {
     padding-top: 125px;
     text-align: center;
 }
+
+
+
+.shadow {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.emphasize {
+    color:#ffb400;
+    font-size: 100px;
+}
+.backToOurRoots {
+color:#ffb400;
+}
+
+
 
 
 
@@ -151,6 +168,14 @@ video {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+
+
+
+
+
+
 
 
 
