@@ -82,6 +82,28 @@ h2 {
     text-align: center;
 }
 
+
+
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1000;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover; /* Ensures the video covers the entire background */
+}
+
 .photos {
     text-align: center;
     padding: 100px;
@@ -110,6 +132,58 @@ h2 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+
+
+.events {
+margin-top: 125px;
+background-color:#A03500;
+
+}
+
+.events h1 {
+padding-bottom: 20px;
+}
+
+
+.day1 {
+padding: 405px;
+color: white;
+}
+.desc1{
+    
+}
+.descImg1 {
+
+}
+
+
+.day2 {
+padding: 405px;
+background-color:#ffb400;
+
+}
+
+
+
+.day3 {
+padding: 405px;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     background-color: #FFF0DC;
