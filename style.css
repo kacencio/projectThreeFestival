@@ -245,7 +245,7 @@ font-size: 1.3rem;
 /* EVENTS */
 
 .events {
-    background-image: url("./img/cowpalace.png");
+    background-image: url("./img/eventHeader.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -394,6 +394,31 @@ font-style: italic;
 
 
 /*about*/
+.abouts {
+    background-image: url("./img/cowpalace.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    }
+    
+    .abouts h1 {
+    padding-bottom: 20px;
+    font-size: 100px;
+    text-align:left;
+    margin-left: 40px;
+    color:#ffb400;
+    line-height: 1;
+    padding-top: 345px;
+    padding-bottom: 320px;
+    font-weight: 600;
+    }
+
+
+
+
+
+
+
 
 #aboutContainer {
     display: grid;
