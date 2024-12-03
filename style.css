@@ -328,9 +328,6 @@ font-style: italic;
     margin-left: 5%;
     margin-right: 5%;
     color: #ffedc2;
-    background-color: rgb(22, 0, 104);
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
 
 }
 
@@ -348,6 +345,7 @@ font-style: italic;
     margin-bottom: 85px;
     margin-left: 10px;
     margin-right: 10px;
+    
 }
 
 .merch-items {
@@ -357,6 +355,8 @@ font-style: italic;
     justify-content: center;
     align-items: flex-start;
     background-color: #e0d7c1;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     padding-bottom: 100px;
 }
 
@@ -370,7 +370,7 @@ font-style: italic;
 .merch-item img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 4px;
     margin-bottom: 10px;
 }
 
