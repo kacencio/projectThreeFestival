@@ -15,14 +15,43 @@
   }
 
 
+  footer {
+    background-color: #FFF0DC;
+    color: black;
+    text-align: center;
+    padding: 60px;
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: #ffb400;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ffa000;
+}
 
 
 
 
+
+
+
+
+
+
+/*INDEX*/
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #A03500;
+    background-color: #000000;
     line-height: 1.6;
 }
 
@@ -155,13 +184,13 @@ video {
 .indexSection2 {
     text-align: center;
     background-color: black;
-    height: 1000px;
+    height: 1100px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
 
 .indexSection2 h1 {
-    font-size: 3rem;
+    font-size: 100px;
     color: #ffb400;
     margin-bottom: 10px;
 
@@ -172,11 +201,11 @@ color: white;
 }
 
 .indexSection2 img {
-    width: 300px;
+    width: 31%;
     height: auto;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 50px;
 }
 
 
@@ -189,80 +218,48 @@ color: white;
 
 
 
+
+
+
+/* EVENTS */
 
 .events {
-margin-top: 125px;
-background-color:#A03500;
-
-}
-
-.events h1 {
-padding-bottom: 20px;
-}
-
-
-.day1 {
-padding: 405px;
-color: white;
-}
-.desc1{
+    margin-top: 125px;
+    background-color:#A03500;
     
-}
-.descImg1 {
-
-}
-
-
-.day2 {
-padding: 405px;
-background-color:#ffb400;
-
-}
-
-
-
-.day3 {
-padding: 405px;
-color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    background-color: #FFF0DC;
-    color: black;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-}
-
-footer p {
-    margin-bottom: 15px;
-}
-
-footer a {
-    color: #ffb400;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-footer a:hover {
-    color: #ffa000;
-}
-
-
+    }
+    
+    .events h1 {
+    padding-bottom: 20px;
+    }
+    
+    
+    .day1 {
+    padding: 405px;
+    color: white;
+    }
+    .desc1{
+        
+    }
+    .descImg1 {
+    
+    }
+    
+    
+    .day2 {
+    padding: 405px;
+    background-color:#ffb400;
+    
+    }
+    
+    
+    
+    .day3 {
+    padding: 405px;
+    color: white;
+    }
+    
+    
 
 
 
@@ -274,7 +271,8 @@ footer a:hover {
 
 .merch-container {
     text-align: center;
-    margin: 125px 20px; /* Adjusted for the fixed header */
+    margin-top: 175px;
+    margin-bottom: 125px;
     color: #FFF0DC;
 }
 
@@ -339,3 +337,10 @@ footer a:hover {
         flex: 1 1 100%; /* One item per row */
     }
 }
+
+
+
+
+
+/* about */
+
