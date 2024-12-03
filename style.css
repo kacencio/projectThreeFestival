@@ -2,17 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Protest Revolution", sans-serif;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
     font-weight: 400;
     font-style: normal;
 }
 
+.logo {
+    color:#ffedc2;
+}
 
-.protest-revolution-regular {
-    font-family: "Protest Revolution", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 
 
   footer {
@@ -50,24 +54,22 @@ footer a:hover {
 /*INDEX*/
 
 body {
-    font-family: 'Arial', sans-serif;
     background-color: #000000;
     line-height: 1.6;
 }
 
 header {
-    background-color: #FFF0DC;
-    color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    border-bottom: 4px solid #ffb400;
+
     width: 100%;
     height: 125px;
     position: fixed;
     top: 0;
     z-index: 1030;
+
 }
 
 .logo-container {
@@ -86,6 +88,7 @@ header a {
     color: rgb(100, 0, 0);
     font-weight: bold;
     font-size: 1.5rem;
+    
 }
 
 .navbar ul {
@@ -100,19 +103,20 @@ header a {
 }
 
 .navbar a {
-    color: black;
+    color:#ffedc2;
+
     text-decoration: none;
     font-weight: bold;
 }
 
 .navbar a:hover {
-    color:#a30000;
+    color:#ffb400
 }
 
 
 #vendorButton a {
     background-color: #a30000;
-    color: #FFF0DC;
+    color:#ffedc2;
     padding: 8px 15px;
     border-radius: 5px;
     font-weight: bold;
@@ -124,11 +128,17 @@ header a {
 
 #indexh2 {
     font-size: 2rem;
-    color: #FFF0DC;
+    color: #ffedc2;
     margin: 250px 10px;
-    padding-top: 125px;
+    padding-top: 11px;
     text-align: center;
 }
+
+#indexh2 span {
+    display: block;
+    line-height: 1;
+}
+
 
 
 #date {
@@ -139,7 +149,7 @@ header a {
 .ticketButton {
     display: inline-block;
     background-color: #a30000;
-    color: #FFF0DC;
+    color: #ffedc2;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
@@ -151,12 +161,18 @@ header a {
 .shadow {
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 .emphasize {
     color:#ffb400;
     font-size: 100px;
+    font-weight: 600;
 }
+
 .backToOurRoots {
 color:#ffb400;
+font-size: 46px;
+
+text-transform:
 }
 
 
@@ -183,21 +199,21 @@ video {
 
 .indexSection2 {
     text-align: center;
-    background-color: black;
+    background-color: rgb(26, 0, 119);
     height: 1100px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
 
 .indexSection2 h1 {
-    font-size: 100px;
-    color: #ffb400;
+    font-size: 86px;
+    color:#ffedc2;
     margin-bottom: 10px;
 
 }
 
 .indexSection2 p {
-color: white;
+color: #ffedc2;
 font-size: 1.3rem;
 }
 
@@ -261,7 +277,7 @@ font-size: 1.3rem;
         padding-bottom: 405px;
         text-align: center;
     background-color:#000000;
-    color: white;
+    color: #ffedc2;
     
     }
     
@@ -289,7 +305,7 @@ font-size: 1.3rem;
     text-align: center;
     margin-top: 175px;
     margin-bottom: 125px;
-    color: #FFF0DC;
+    color: #ffedc2;
 }
 
 .merch-container h1 {
@@ -300,7 +316,7 @@ font-size: 1.3rem;
 
 .merch-container p {
     font-size: 1.2rem;
-    color: white;
+    color: #ffedc2;
     margin-bottom: 30px;
 }
 
@@ -313,7 +329,7 @@ font-size: 1.3rem;
 }
 
 .merch-item {
-    background-color: #FFF0DC;
+    background-color: #ffedc2;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -341,18 +357,6 @@ font-size: 1.3rem;
     font-weight: bold;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .merch-item {
-        flex: 1 1 calc(50% - 20px); /* Two items per row */
-    }
-}
-
-@media (max-width: 480px) {
-    .merch-item {
-        flex: 1 1 100%; /* One item per row */
-    }
-}
 
 
 
