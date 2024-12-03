@@ -23,7 +23,6 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #A03500;
-    color: #333;
     line-height: 1.6;
 }
 
@@ -55,15 +54,10 @@ header img {
 
 header a {
     text-decoration: none;
-    color: black;
+    color: rgb(100, 0, 0);
     font-weight: bold;
     font-size: 1.5rem;
 }
-
-a:hover {
-    color:#a30000;
-}
-
 
 .navbar ul {
     list-style: none;
@@ -108,6 +102,22 @@ h2 {
 }
 
 
+#date {
+    padding-top: 60px;
+}
+
+
+.ticketButton {
+    display: inline-block;
+    background-color: #a30000;
+    color: #FFF0DC;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
 
 .shadow {
 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -119,8 +129,6 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 .backToOurRoots {
 color:#ffb400;
 }
-
-
 
 
 
@@ -141,31 +149,28 @@ video {
   transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
-  object-fit: cover; /* Ensures the video covers the entire background */
+  object-fit: cover; 
 }
 
-.photos {
+.indexSection2 {
     text-align: center;
-    padding: 100px;
     background-color: black;
     height: 1000px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
 
-.photos h1 {
+.indexSection2 h1 {
     font-size: 3rem;
     color: #ffb400;
-    margin-bottom: 10px;
+
 }
 
-.photos h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 20px;
+.indexSection2 p {
+color: white;
 }
 
-.photos img {
+.indexSection2 img {
     width: 300px;
     height: auto;
     margin: 10px;
