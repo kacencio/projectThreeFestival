@@ -420,7 +420,7 @@ font-style: italic;
     font-size: 5vh;
     font-weight: 700;
     line-height: 1.1;
-    padding: 25px;
+    padding: 50px 100px;
 
   }
   
@@ -428,7 +428,7 @@ font-style: italic;
     font-size: 2vh;
     text-align: left;
     margin: 10px;
-    padding-left: 25px;
+    padding: 0 100px;
   }
   
   .about2 img, .about3 img {
@@ -437,11 +437,22 @@ font-style: italic;
   }
   
   .about4 h2 {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 5vh;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 50px;
   }
   
   .about4 p {
-    font-size: 18px;
-    text-align: center;
+    font-size: 2vh;
+    text-align: left;
+    margin: 10px;
+    padding: 0 100px;
+    padding-bottom: 20px;
+  }
+
+
+  #faq {
+    display: block;
+
   }
