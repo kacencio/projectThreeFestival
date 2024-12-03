@@ -163,6 +163,7 @@ video {
 .indexSection2 h1 {
     font-size: 3rem;
     color: #ffb400;
+    margin-bottom: 10px;
 
 }
 
@@ -259,4 +260,82 @@ footer a {
 
 footer a:hover {
     color: #ffa000;
+}
+
+
+
+
+
+
+
+
+
+/*Merch*/
+
+.merch-container {
+    text-align: center;
+    margin: 125px 20px; /* Adjusted for the fixed header */
+    color: #FFF0DC;
+}
+
+.merch-container h1 {
+    font-size: 3rem;
+    color: #ffb400;
+    margin-bottom: 10px;
+}
+
+.merch-container p {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.merch-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.merch-item {
+    background-color: #FFF0DC;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 1 1 calc(33.333% - 40px); /* Responsive width for three items */
+    max-width: 300px;
+}
+
+.merch-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.merch-item h2 {
+    font-size: 1.5rem;
+    color: #A03500;
+    margin: 10px 0;
+}
+
+.merch-item p {
+    font-size: 1.2rem;
+    color: #a30000;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .merch-item {
+        flex: 1 1 calc(50% - 20px); /* Two items per row */
+    }
+}
+
+@media (max-width: 480px) {
+    .merch-item {
+        flex: 1 1 100%; /* One item per row */
+    }
 }
