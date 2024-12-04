@@ -18,10 +18,10 @@ Fraunces, Protest Revolution
 
 ### Colors Used:
 <ul>
-Golden Yellow (#ffb400)
-Deep Sea Blue (rgb(26, 0, 119))
-Sandy White (#e0d7c1)
-Black (#000000)
+<li>Golden Yellow (#ffb400)</li>
+<li>Deep Sea Blue (rgb(26, 0, 119))</li>
+<li>Sandy White (#e0d7c1)</li>
+<li>Black (#000000)</li>
 </ul>
 
 ##### Code Editor Used: #####
