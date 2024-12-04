@@ -244,6 +244,7 @@ font-size: 1.3rem;
 
 /* EVENTS */
 
+
 .events {
     background-image: url("./img/eventHeader.png");
     background-repeat: no-repeat;
@@ -399,6 +400,7 @@ font-style: italic;
 
 
 /*about*/
+
 .abouts {
     background-image: url("./img/cowpalace.png");
     background-repeat: no-repeat;
@@ -445,6 +447,16 @@ font-style: italic;
     color: black;
     font-size: 20px;
   }
+
+  .about1 a {
+    text-decoration: none;
+    font-size: 5vh;
+    font-weight: 700;
+    line-height: 1.1;
+    color: rgb(26, 0, 119);
+    }
+    
+
   
   .about1 h2 {
     font-size: 5vh;
