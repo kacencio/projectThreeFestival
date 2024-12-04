@@ -303,9 +303,14 @@ font-size: 1.3rem;
 
 .time {
     margin-top: 50px;
+    font-size: 50px;
+    text-transform: lowercase;
 }
 
-
+.eventBold {
+    font-weight: 1000;
+    font-size: 20px;
+}
 
 
 
