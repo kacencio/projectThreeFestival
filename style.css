@@ -393,6 +393,11 @@ font-style: italic;
     height: auto;
     border-radius: 4px;
     margin-bottom: 10px;
+    transition: transform 0.1s ease; 
+}
+
+.merch-item img:hover {
+    transform: scale(1.02); 
 }
 
 .merch-item h2 {
