@@ -361,7 +361,7 @@ font-style: italic;
 .merch-items {
     display: flex;
     flex-wrap: wrap;
-    gap: 30vh;
+    gap: 10vh;
     justify-content: center;
     align-items: flex-start;
     background-color: #e0d7c1;
