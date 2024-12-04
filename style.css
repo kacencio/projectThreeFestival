@@ -267,9 +267,7 @@ font-size: 1.3rem;
 #eventsContainer {
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* width */
-        grid-template-rows: repeat(2, 1fr); /* height */
         padding-top: 10px;
-        background-color: #e0d7c1;
       }
       
       
@@ -277,25 +275,31 @@ font-size: 1.3rem;
         display: flex; 
         flex-direction: column; 
         justify-content:flex-start; 
-        align-items: center; 
         background-color:#e0d7c1;
-        padding: 10px;
-        margin: 90px 40px;
+        padding: 50px;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
       }
       
       #eventsContainer h2 {
         font-size: 30px;
         font-weight: 700;
-        margin-bottom: 30px;
-        padding: 10px 20px;
+        margin-top: 3px;
+        padding: 20px 20px;
         background-color:#ffb400;
         border-radius: 4px;
         line-height: 1.3;
         }
       
+        #eventsContainer p {
+        
+        }
 
-
-
+.time {
+    margin-top: 50px;
+}
 
 
 
@@ -357,13 +361,12 @@ font-style: italic;
     justify-content: center;
     align-items: flex-start;
     background-color: #e0d7c1;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     padding-bottom: 100px;
 }
 
 .merch-item {
-    border-radius: 10px;
     padding: 40px;
     text-align: center;
     max-width: 300px;
