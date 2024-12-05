@@ -36,3 +36,5 @@ Fraunces, Protest Revolution
 </ul>
 
  ###### References for Code: ######
+Grid: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
+Video: https://stackoverflow.com/questions/73924076/hi-everyone-how-do-i-put-a-background-video-using-html-css
