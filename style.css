@@ -277,7 +277,7 @@ font-size: 1.3rem;
     
 #eventsContainer {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* width */
+        grid-template-columns: repeat(3, 1fr);
         padding-top: 10px;
       }
       
