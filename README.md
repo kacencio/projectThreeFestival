@@ -7,7 +7,7 @@
 My festival project site features a fictional Balik-Kultura Festival that is held in Daly City, California at Cow Palace.
 
 ## Technical Overview 
-All photographs that are featured and cropped are of AI origin. Click link [here]([https://sfsu.box.com/s/14nev1snyq1k3min95bqjh97ycm6sbtz) to view related PSD files on Box.
+All photographs that are featured and cropped are of AI origin. Click link [here](https://sfsu.box.com/s/14nev1snyq1k3min95bqjh97ycm6sbtz) to view related PSD files on Box.
 
 Video and screenshots of the video on events.html and merch.html is sourced by Kollective Hustle  on YouTube. (https://www.youtube.com/watch?v=ugNUox6UzNU)
 
