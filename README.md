@@ -38,5 +38,7 @@ Fraunces, Protest Revolution
  ###### References for Code: ######
 <ul>
 <li>Grid: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout</li>
-<li>Video: https://stackoverflow.com/questions/73924076/hi-everyone-how-do-i-put-a-background-video-using-html-css</li>
+<li>Video Implementation: https://stackoverflow.com/questions/73924076/hi-everyone-how-do-i-put-a-background-video-using-html-css</li>
+<li>Media Query: https://www.youtube.com/watch?v=yU7jJ3NbPdA</li>
+<li>iPhone 14 Size Ref: https://stackoverflow.com/questions/73826203/media-queries-for-iphone-14-pro-max</li>
 </ul>
