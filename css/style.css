@@ -524,11 +524,11 @@ font-style: italic;
 
 /*Media Query for iPhone 14 (1170 x 2532, 390px x 844 px safari view)*/ 
 
-/*@media only screen 
+@media only screen 
 and (device-width: 390px) 
 and (device-height: 844px) 
 and (-webkit-device-pixel-ratio: 3)
-{*/
+{
 
     #vendorButton a {
         font-size: 1rem;
@@ -605,6 +605,12 @@ footer a {
     display: flex;
     justify-content: center;
 }
+
+.KKC_logo {
+    width: 100px;
+    height: auto;
+}
+
 
 
 
