@@ -4,7 +4,7 @@
 ### Website found at: [https://kacencio.github.io/projectThreeFestival/](https://kacencio.github.io/projectThreeFestival/) ###
 
 ## Project Overview 
-My festival project site features a fictional Balik-Kultura Festival that is held in Daly City, California at Cow Palace.
+My festival project site features a fictional Balik-Kultura Festival that is held in Daly City, California at Cow Palace. As per the about page of the website, the Balik-Kultura Festival, while serving and bridging the local Filipino community, "brings together the rich traditions, artistry, and community spirit of the Filipino people. From captivating cultural performances and ancestral crafts to thought-provoking panel discussions, Balik-Kultura offers an immersive experience that honors pre-colonial roots while embracing the modern Filipino identity."
 
 ## Technical Overview 
 All photographs that are featured and cropped are of AI origin. Click link [here](https://sfsu.box.com/s/14nev1snyq1k3min95bqjh97ycm6sbtz) to view related PSD files on Box.
