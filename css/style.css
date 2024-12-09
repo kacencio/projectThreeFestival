@@ -594,6 +594,18 @@ and (-webkit-device-pixel-ratio: 3)
 
 
 
+footer {
+    font-size: 10px;
+    gap: 10px;
+}
+
+footer a {
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
 
 
