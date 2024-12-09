@@ -524,11 +524,11 @@ font-style: italic;
 
 /*Media Query for iPhone 14 (1170 x 2532, 390px x 844 px safari view)*/ 
 
-@media only screen 
+/*@media only screen 
 and (device-width: 390px) 
 and (device-height: 844px) 
 and (-webkit-device-pixel-ratio: 3)
-{
+{*/
 
     #vendorButton a {
         font-size: 1rem;
@@ -541,12 +541,14 @@ and (-webkit-device-pixel-ratio: 3)
         justify-content: center; 
         align-items: center;     
         padding: 15px 30px;
+        padding-bottom: 30px;
         border-top: 5px #ffb400 solid;
         width: 100%;
         height: auto; 
         position: absolute;
         top: 0;
         z-index: 1030;
+        background-color:#000000;
         
     }
 
