@@ -522,7 +522,7 @@ font-style: italic;
 
 
 
-/*Media Query for my vertical monitor and iPhone 14 (1170 x 2532)*/ 
+/*Media Query for iPhone 14 (1170 x 2532, 390px x 844 px safari view)*/ 
 
 @media only screen 
 and (device-width: 390px) 
