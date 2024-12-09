@@ -530,6 +530,11 @@ and (device-height: 844px)
 and (-webkit-device-pixel-ratio: 3)
 {
 
+    #vendorButton a {
+        font-size: 0.5rem;
+    }
+
+
     header {
         display: flex;
         flex-direction: column;  
@@ -551,31 +556,31 @@ and (-webkit-device-pixel-ratio: 3)
     }
 
     header a {
-        font-size: 1rem; /* Adjust font size for logo */
+        font-size: 1rem; 
     }
 
     .navbar ul {
-        gap: 30px; /* Reduce gap between navbar items */
+        gap: 30px;
     }
 
     .navbar a {
-        font-size: 1rem; /* Adjust font size of navbar links */
+        font-size: 1rem; 
     }
 
-    /* Adjust indexh2 for smaller screens */
+
     #indexh2 {
         font-size: 1.5rem;
-        margin: 100px 10px; /* Reduce margin for better fit */
+        margin: 100px 10px; 
         padding-top: 10px;
     }
 
-    /* Ticket button */
+
     .ticketButton {
         font-size: 1rem;
         padding: 8px 15px;
     }
 
-    /* Adjust the video container */
+
     .video-container {
         z-index: -1000;
         position: fixed;
@@ -586,26 +591,26 @@ and (-webkit-device-pixel-ratio: 3)
         min-height: 100%;
     }
 
-    /* Adjust section styling */
+
     .indexSection2 {
-        height: auto; /* Adjust section height */
+        height: auto; 
         padding: 20px;
     }
 
     .indexSection2 h1 {
-        font-size: 2rem; /* Smaller text size */
+        font-size: 2rem; 
     }
 
     .indexSection2 img {
-        width: 90%; /* Make images take more space */
+        width: 90%; 
         margin-top: 20px;
     }
 
     .emphasize {
-        font-size: 50px; /* Adjust emphasize text size */
+        font-size: 50px; 
     }
 
     .backToOurRoots {
-        font-size: 18px; /* Reduce font size */
+        font-size: 18px; 
     }
 }
