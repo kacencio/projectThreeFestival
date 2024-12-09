@@ -256,7 +256,7 @@ font-size: 1.3rem;
 
 
 .events {
-    background-image: url("./img/eventHeader.png");
+    background-image: url("../img/eventHeader.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -331,7 +331,7 @@ font-size: 1.3rem;
 /*Merch*/
 
 body {
-    background-image: url("./img/merchHeader.png");
+    background-image: url("../img/merchHeader.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -422,7 +422,7 @@ font-style: italic;
 /*about*/
 
 .abouts {
-    background-image: url("./img/cowpalace.png");
+    background-image: url("../img/cowpalace.png");
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
